@@ -1,7 +1,20 @@
+# Python virtual environments
+venv/
+.venv/
+backend/venv/
+backend/.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Frontend dependencies
 node_modules/
-artifacts/
 dist/
-build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment files
 .env
 .env.*
-*.log
